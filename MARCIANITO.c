@@ -136,100 +136,100 @@ void time_muerto() {
     __delay_ms(10);
 }
 
-//void main(void) {
-//    int a = 0;
-//    TRISD = 0x00;
-//    timer_0_init();
-//    TMR0 = 0;
-//    while (1) {
-//        notas(DO, NEGRA);
-//        time_muerto();
-//        notas(RE, CORCHEA);
-//        time_muerto();
-//        notas(MI, NEGRA);
-//        time_muerto();
-//        notas(SOL, NEGRA);
-//        time_muerto();
-//        notas(SOL, NEGRA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(MI, REDONDA);
-//        time_muerto();
-//
-//        notas(DO, NEGRA);
-//        time_muerto();
-//        notas(RE, CORCHEA);
-//        time_muerto();
-//        notas(MI, NEGRA);
-//        time_muerto();
-//        notas(SOL, NEGRA);
-//        time_muerto();
-//        notas(SOL, NEGRA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(DO, REDONDA);
-//        time_muerto();
-//
-//        notas(LA, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(MI, CORCHEA);
-//        time_muerto();
-//        notas(RE, CORCHEA);
-//        time_muerto();
-//        notas(DO, CORCHEA);
-//        time_muerto();
-//        notas(DO, NEGRA);
-//        time_muerto();
-//        
-//                notas(LA, CORCHEA);
-//        time_muerto();
-//        notas(SOL, CORCHEA);
-//        time_muerto();
-//        notas(FAb_SOLs, CORCHEA);
-//        time_muerto();
-//        notas(MI, CORCHEA);
-//        time_muerto();
-//        notas(RE,CORCHEA);
-//        time_muerto();
-//        notas(DO, CORCHEA);
-//        time_muerto();
-//        notas(DO, NEGRA);
-//        time_muerto();
-//
-//    }
-//    return;
-//}
+void main(void) {
+    int a = 0;
+    TRISD = 0x00;
+    timer_0_init();
+    TMR0 = 0;
+    while (1) {
+        notas(DO, NEGRA);
+        time_muerto();
+        notas(RE, CORCHEA);
+        time_muerto();
+        notas(MI, NEGRA);
+        time_muerto();
+        notas(SOL, NEGRA);
+        time_muerto();
+        notas(SOL, NEGRA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(MI, REDONDA);
+        time_muerto();
 
-void main ()
-{
-    TRISB = 0X00;
+        notas(DO, NEGRA);
+        time_muerto();
+       notas(RE, CORCHEA);
+        time_muerto();
+        notas(MI, NEGRA);
+        time_muerto();
+        notas(SOL, NEGRA);
+        time_muerto();
+        notas(SOL, NEGRA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(DO, REDONDA);
+        time_muerto();
+
+        notas(LA, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(MI, CORCHEA);
+        time_muerto();
+        notas(RE, CORCHEA);
+        time_muerto();
+        notas(DO, CORCHEA);
+        time_muerto();
+        notas(DO, NEGRA);
+        time_muerto();
+        
+                notas(LA, CORCHEA);
+        time_muerto();
+        notas(SOL, CORCHEA);
+        time_muerto();
+        notas(FAb_SOLs, CORCHEA);
+        time_muerto();
+        notas(MI, CORCHEA);
+        time_muerto();
+        notas(RE,CORCHEA);
+        time_muerto();
+        notas(DO, CORCHEA);
+        time_muerto();
+        notas(DO, NEGRA);
+       time_muerto();
+
+   }
+    return;
+}
+
+//void main ()
+//{
+  //  TRISB = 0X00;
     
-    while (1)
-    {
-        for ( int cuenta = 0 ; cuenta <= 15;  cuenta ++)
-        {
-            PORTB = cuenta;
-            __delay_ms(250);
-        }
-        return;
-    }
+  //  while (1)
+   // {
+     //   for ( int cuenta = 0 ; cuenta <= 15;  cuenta ++)
+     //   {
+       //     PORTB = cuenta;
+         //   __delay_ms(250);
+        //}
+        //return;
+    //}
     
 }
